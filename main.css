@@ -1,26 +1,40 @@
 body{
+   
+    //*background-image: url(https://cdn1.pri.org/sites/default/files/styles/open_graph/public/aleppo-syria-fsa-rebels-assad-civilians.jpg?itok=qPCYmmEo);
+    *//
     width: 100%;
-    height: 100%;
-    margin: 0;
+    background-image: url(http://www.mintpressnews.com/wp-content/uploads/2016/02/Syria-Civil-War-7-1600x900.jpg);
+    
 }
-header{
-    background: white;
-    height: 100px;
-    width: 100%;
+
+.container{
+
 }
 
 .box{
-    width: 40%;
+    margin-top: 19%;
+    width: 50%;
     height: 30%;
     float: left;
+    margin-left: 5%;
+}
+
+
+
+.picBox{
+    margin-top: 8%;
+    position: absolute;
+    float: right;
 }
 
 h1{
     font-size: 500%;
-    color: black;
+    color: white;
+    font-family: sans-serif;
 }
 
 h2{
-    font-size: 400%;
-    color: black;
+    font-size: 200%;
+    color: white;
+    font-family: sans-serif;
 }
